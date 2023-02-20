@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Home from './pages/home'
+import HomeState from './pages/home-state'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <Home />
+   <div className='container'>
+      <div className='text-center'>dddd</div>
+   </div>
+   <HomeState />
   </React.StrictMode>
 );
 
